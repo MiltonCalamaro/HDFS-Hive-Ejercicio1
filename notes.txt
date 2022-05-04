@@ -1,0 +1,7 @@
+## inicializar hadoop
+start-dfs.sh
+## inicializar yarn
+start-yarn.sh
+## inicializar hive
+schematool -dbType derby -initSchema
+
